@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendors/bootstrap/js/bootstrap.min.js">
+    
+    <link rel="stylesheet" href="./css/dataVisualizer.css">
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="./charts/pie_chart.js"></script>
+    <script src="./charts/column_chart1.js"></script>
+    <script src="./charts/bar_chart1.js"></script>
+    <script src="./charts/bubble_chart1.js"></script>
+    <script src="./charts/combo.chart1.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h2 class="text-center text-white mb-0">Gig worker sensemaking</h2>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <h3 class="fs-4 mb-0 text-white subtitle1_color">Data Driven sensemaking</h3>
+        </div>
+        <div class="col-4">
+            <h3 class="fs-4 text-white subtitle2_color">Collaborative Proposal of Solutions</h3>
+        </div>
+    </div>
+    
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-12 col-xl-8 left_border">
+                
+                <div class="row">
+
+                    <div class="col-12 col-xl-6">
+                        <div class="bg-white mt-2">
+                            <h4 class="fs-5">My Action Team</h4>
+                            <div id="chart_div"></div>
+                        </div>
+                        <div class="bg-white mt-2">
+                            <h4 class="fs-5">Best Types of Paid Tasks</h4>
+                            <div id="combo_div" style="width: 400px; height: 200px;"></div>
+                        </div>
+                        <div>
+                            <h4 class="fs-5">Amount of Paid VS. Unpaid Labor</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-6">
+                        <div class="bg-white mt-2">
+                            <h4 class="fs-5">Team Progress</h4>
+                            <div id="series_chart_div" style="width: 400px; height: 200px;"></div>
+                        </div>
+                        <div class="bg-white mt-2">
+                            <h4 class="fs-5">Median Hourly Wage Per Gig Market</h4>
+                            <div id="columnchart_values"></div>
+                        </div>
+                        <div class="bg-white mt-2">
+                            <h4 class="fs-5">Amount of Unpaid Labor Per Platform</h4>
+                            <div id="chart_div1"></div>
+                        </div>
+                        <div>
+                            <h4 class="fs-5">Percentage of Scams Per Platform</h4>
+                        </div>
+                    </div>
+
+                </div>
+                
+                
+    
+            </div>
+            <div class="col-12 col-xl-4 right_border">
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
